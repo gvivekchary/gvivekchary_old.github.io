@@ -30,7 +30,7 @@
 <body class="container-fluid body_section">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand brand-name" href="#">Vivek</a>
+            <a class="navbar-brand brand-name" href="index.html">Vivek</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,37 +40,29 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link headerachor" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link headerachor" href="Education.html">Education</a>
-                    </li>
-                    <li class="nav-item">
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link headerachor" href="Experience.html">Professional Experience</a>
+                      </li>
+                      
+                      <li class="nav-item">
                         <a class="nav-link headerachor" href="skill.html">Skills</a>
-                    </li>
-                    <li class="nav-item">
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link headerachor" href="Project.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link headerachor" href="Blogs.html">Blogs</a>
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link headerachor" href="contact.html">Contact Me</a>
-                    </li>
+                      </li>
                 </ul>
         </nav>
     </header>
-    <section id=Section1>
-        <div class="row">
-            <div class="col-lg-6 col-md">
-                <img class="Programming" src="Image/Programming.svg" alt="">
-            </div>
-            <div class="col-lg-6 col-md Coding">
-                <h1>Competitive Programming</h1>
-                <ul class="competitive_icon">
-                    <li><a href="https://www.hackerrank.com/Ajitverma?hr_r=1" target="_blank"><i class="fab fa-hackerrank fa-4x"></i><a></i></li>
-                    <li><a href="https://www.hackerearth.com/@ajit457" target="_blank"><i class="iconify" data-icon="simple-icons:hackerearth" data-inline="false" data-width=50px
-                            data-height=50px></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
     <section>
         <div class="container">
             <div class="Heading">
@@ -93,11 +85,31 @@
                                     <p class="degree">Masters in Electronics and Computer Engineering</p>
                                 </div>
                                 <div class="box-content">
-                                    <a class="btn btn-sm btn-dark float-right" role="button" href="https://jcboseust.ac.in/"
-                                       target=_blank style="color: white;">Website</a>
-                                    <div class="box-item">💥 I have studied basic software engineering subjects like DS,
-                                        Algorithms, DBMS, OS, CA,CN etc.</div>
-                                    <div class="box-item"><b>💥 CGPA</b>: </div>
+                                    <button class="btn btn-sm btn-dark float-right" role="button" data-toggle="modal" data-target="#myModal"
+                                        style="color: white;">Details</button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal" role="dialog">
+                                        <div class="modal-dialog">
+                                    
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    <h4 class="modal-title">Course Work</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Some text in the modal.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                    
+                                         </div>
+                                    </div> 
+                                     
+                                    <div class="box-item">💥 Studied on Embedded Systems, Communication and Programming Stream</div>
+                                    <div class="box-item"> </div>
                                 </div>
                             </div>
                         </div>
@@ -114,13 +126,38 @@
                                 <div class="box-title">
                                     <i class="fas fa-school" aria-hidden="true"></i> Guru Ghasidas Vishwavidyalaya,India <p class="degree">Bachelors in Electronics and Communication Engineering</p>
                                 </div>
-                                <div class="box-content">
-                                    <a class="btn btn-sm btn-dark float-right" role="button"
-                                        style="color: white;">Details</a>
-                                    <div class="box-item">💥 I have studied science stream subjects like Physics,
-                                        Chemistry, Mathematics etc. </div>
+                                <div class="box-content">   
+                                    <button class="btn btn-sm btn-dark float-right" role="button" data-toggle="modal" data-target="#yourModal"
+                                        style="color: white;">Details</button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="yourModal" role="dialog">
+                                        <div class="modal-dialog modal-lg">
+                                    
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" href="#">&times;</button>
+                                                </div>
+                                                
+                                                <h4 class="modal-title">Course Work</h4>
+                                                <div class="modal-body">
+                                                    <p>List of Courses:</p>
+                                                    <ol>
+                                                        <li>Robotics</li>
+                                                        <li>Solid States</li>
+                                                        <li>Milk</li>
+                                                      </ol>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                    
+                                         </div>
+                                    </div> 
+                                    
+                                    <div class="box-item">💥 Gain knowledge in Embedded Systems, Communication Systems, Electronic Devices and Circuits and Control Systems </div>
                                     <div class="box-item"><b>💥 Percentage</b>: 80%</div>
-
                                 </div>
                             </div>
                         </div>
@@ -129,49 +166,8 @@
             </div>
         </div>
     </section>
-    <section id=section3>
-        <div class="Heading">
-            <h1>Certifications</h1>
-        </div>
-        <div class="container certificate">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card mb-4 box-shadow">
-                    <img class="card-img-top"
-                        src="Image/C++.jpg"
-                        alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text certificate-text">C++ with Data Structure and Algorithms
-                            <br><span style="color:gray">-by Coding blocks</span>
-                        </p>
-                       
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4 box-shadow">
-                    <img class="card-img-top"
-                        src="Image/JavaScript.jpg"
-                        alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text certificate-text">JavaScript Basics</p>
-                        <p class="certificate-text" style="color:gray">-by Sololearn</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4 box-shadow">
-                    <img class="card-img-top"
-                        src="Image/Data Science.jpg"
-                        alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text certificate-text">Data Science</p>  
-                        <p class="certificate-text" style="color:gray">-by _____</p>  
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
+    
     <footer class=footer>Made with ❤️ by Vivek</footer>
 </body>
 
